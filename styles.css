@@ -1,0 +1,122 @@
+/* Reset some default styles */
+
+/* Basic body styling */
+body {
+    font-family: Lucida Sans Regular, monospace;
+    line-height: 1;
+    color: hotpink;
+    background-color: transparent;
+    text-align: center;
+    font-size: small;
+    
+}
+
+.container{
+    align-items: center;
+    width: 500px; /* adjust to container size as needed */
+    height: 500px; /* adjust to container size as needed */
+    margin: auto;
+
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.container img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+mark {
+    background-color: HotPink;
+    color: white;
+  }
+
+/* Header styling */
+header h1{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10pt;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 13pt;
+}
+
+
+/* Navigation styling */
+nav ul {
+    display: flex;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 0.5rem;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main content styling */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.about-box{
+    width: 100%;
+    background-image:url("aboutbackground.jpg");
+    font-size: 5%;
+}
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+section p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: hotpink;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  a:active {
+    color: red;
+  }

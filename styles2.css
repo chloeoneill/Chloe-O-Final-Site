@@ -1,0 +1,127 @@
+body {
+  font-family: Lucida Sans Regular, monospace;
+  line-height: 1;
+  color: black;
+  background-color: transparent;
+  text-align: center;
+  font-size: small;
+}
+
+mark {
+  background-color: HotPink;
+  color: white;
+}
+
+/* for grid pages */
+header h1{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10pt;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 13pt;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .container {
+    display: grid;
+    gap: 10px;
+    /* change the pixel size below to adjust the smallest size you want to display */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    padding: 10px;
+  }
+  
+  .grid-item {
+    overflow: hidden;
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Media Query for Desktop */
+  @media (max-width: 768px) {
+    .container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  /* Navigation styling */
+nav ul {
+    display: flex;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 0.5rem;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main content styling */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.about-box{
+    width: 100%;
+    background-image:url("aboutbackground.jpg");
+    font-size: 5%;
+}
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+section p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: hotpink;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  a:active {
+    color: red;
+  }
